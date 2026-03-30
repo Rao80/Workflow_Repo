@@ -5,6 +5,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print Hi
-        run: echo "Hello"
-      - name: Print Bye
-        run: echo "Bye"
+        run: |
+            echo "First output"
+            echo "Second output"
